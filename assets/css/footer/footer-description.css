@@ -1,0 +1,17 @@
+.footer__description{
+    display: flex;
+    font-size: 2rem;
+    color: #8c8888;
+}
+
+@media screen and (min-width:0) {
+    .footer__description{
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .footer__description{
+        margin-left: 5rem;
+    }
+}

@@ -1,0 +1,16 @@
+.team__description{
+    color: #595959;
+    font-weight: 100;
+}
+
+@media screen and (min-width:0) {
+    .team__description{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .team__description{
+        font-size: 1.75rem;
+    }
+}
